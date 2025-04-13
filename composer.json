@@ -1,6 +1,6 @@
 {
-    "name": "carvemerson/skeleton-php",
-    "description": "A skeleton to be used on laravel packages",
+    "name": "carvemerson/potato",
+    "description": "The ",
     "type": "library",
     "require": {
         "php": "^8.2",
