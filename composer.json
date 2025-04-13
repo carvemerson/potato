@@ -1,6 +1,6 @@
 {
     "name": "carvemerson/potato",
-    "description": "The ",
+    "description": "The Progressive Open-source Toolkit for Admin Template Orchestration",
     "type": "library",
     "require": {
         "php": "^8.2",
