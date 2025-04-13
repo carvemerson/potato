@@ -12,11 +12,12 @@
         "laravel/pint": "^1.22",
         "rector/rector": "^2.0",
         "pestphp/pest-plugin-type-coverage": "^3.1",
-        "larastan/larastan": "^3.0"
+        "larastan/larastan": "^3.0",
+        "pestphp/pest-plugin-laravel": "^3.1"
     },
     "autoload": {
         "psr-4": {
-            "Carvemerson\\SkeletonPhp\\": "src/"
+            "Carvemerson\\Potato\\": "src/"
         }
     },
     "autoload-dev": {
