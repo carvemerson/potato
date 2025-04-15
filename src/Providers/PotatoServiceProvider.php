@@ -2,7 +2,6 @@
 
 namespace Carvemerson\Potato\Providers;
 
-use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 
 class PotatoServiceProvider extends ServiceProvider
@@ -22,7 +21,6 @@ class PotatoServiceProvider extends ServiceProvider
             __DIR__.'/../../config/potato.php' => config_path('potato.php'),
         ], 'potato-config');
     }
-
 
     public function registerRoutes(): void
     {
