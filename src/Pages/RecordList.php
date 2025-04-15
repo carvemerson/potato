@@ -29,10 +29,7 @@ abstract class RecordList implements Arrayable
 
     public function getTitle(): string
     {
-        /** @var string $resourceTitle */
-        $resourceTitle = static::$resource::getTitle();
-
-        return $this->title ?? $resourceTitle;
+        return $this->title ?? static::$resource::getTitle();
     }
 
     public function toArray(): array

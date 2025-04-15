@@ -12,7 +12,7 @@ abstract class Resource implements DefinesRoutes
 
     public static function getTitle(): string
     {
-        return self::$title ?? str(class_basename(static::$model))->plural()->title();
+        return static::$title ?? str(class_basename(static::$model))->plural()->title();
     }
 
     public static function getRoutePrefix(): string
